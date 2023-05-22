@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header h1 {
+    display: flex;
+    padding-left: 10px;
+    font-size: 2rem;
+}
+
+.logo_img {
+    display: flex;
+    justify-content: left;
+    height: 75px;
+    overflow: hidden;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.nav_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero {
+    background-image: url('../assets/mancuernas-fitness_335224-876.avif');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cta {
+    background-color: #f00;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cta:hover {
+    background-color: #d00;
+}
+
+#classes {
+    background-color: #f7f7f7;
+    padding: 2rem;
+}
+
+#classes h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#classes ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#classes li {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+#trainers {
+    background-color: #eee;
+    padding: 2rem;
+}
+
+#trainers h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#trainers ul {
+    list-style: none;
+}
+
+#trainers li {
+    margin-bottom: 0.5rem;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* #imagen_gym {
+    max-height: 500px;
+}
+
+.form {
+    width: 400px;
+    background: #000;
+}
+.input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    height: 24px;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 30px;
+    text-indent: 4px;
+}
+body {
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    background: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 12vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    padding-top: 14px;
+}
+.li_navbar {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.a_navbar{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+main{
+    background-image: url(../assets/mancuernas-fitness_335224-876.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo_img{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+}
+
+.register_button{
+    border-radius: 10%;
+}
+
+.div_entrenadores{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes_entrenadores{
+    margin: 20px;
+    width: 450px;
+    height: 400px;
+}
+
+.a_entrenadores{
+    text-decoration: none;
+} */
+
