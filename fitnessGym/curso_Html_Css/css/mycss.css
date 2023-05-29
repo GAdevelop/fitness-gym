@@ -150,6 +150,9 @@ label {
 }
 
 input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
 input[type="password"] {
     width: 100%;
     padding: 10px;
@@ -161,6 +164,7 @@ input[type="password"] {
 
 button[type="submit"] {
     display: block;
+    font-size: 20px;
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
@@ -168,6 +172,22 @@ button[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.navbar_menu_divider {
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+.navbar_menu_divider2 {
+    display: inline-block;
+    width: 0.5px;
+    height: 20.5px;
+    background-color: #fff;
+    margin: 0 10px;
 }
 
 
