@@ -4,6 +4,12 @@
     padding: 0;
     font-family: Arial, sans-serif;
 }
+body{
+    background-color: #414141;
+    font-size: 20px;
+    color: #fff;
+    min-height: 100vh;
+}
 
 header {
     background-color: #222;
@@ -11,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 16px;
 }
 
 header h1 {
@@ -39,6 +45,7 @@ nav li {
 nav a {
     color: #fff;
     text-decoration: none;
+    font-size: 20px;
 }
 
 nav a:hover {
@@ -55,6 +62,7 @@ nav a:hover {
     background-image: url('../assets/mancuernas-fitness_335224-876.avif');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -88,13 +96,15 @@ nav a:hover {
 }
 
 #classes {
-    background-color: #f7f7f7;
+    background-color: #414141;
     padding: 2rem;
+    color: #fff;
 }
 
 #classes h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: #fff;
 }
 
 #classes ul {
@@ -109,11 +119,13 @@ nav a:hover {
     padding: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
+    color-scheme: #fff;
 }
 
 #trainers {
-    background-color: #eee;
+    background-color: #414141;
     padding: 2rem;
+    color: #fff;
 }
 
 #trainers h2 {
@@ -165,9 +177,9 @@ input[type="password"] {
 button[type="submit"] {
     display: block;
     font-size: 20px;
-    width: 100%;
+    width: auto;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #f00;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -190,9 +202,295 @@ button[type="submit"] {
     margin: 0 10px;
 }
 
+.login_form_buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.a_button{
+    text-decoration: none;
+    color: #fff;
+}
 
+footer {
+    background-color: #3c3232;
+    padding: 20px;
+    position: sticky;
+    top: 100%;
+}
 
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer_h3{
+    color: #e8e6e6;
+    font-size: 23px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.footer_section_h3 {
+    color: #e8e6e6;
+    font-size: 23px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+.footer-section p {
+    color: #f8ff3b;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #f8ff3b;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.about_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #414141;
+    color: #fff;
+}
+
+.about_div{
+    background-color: #414141;
+    padding: 50px;
+}
+
+.about_h1 {
+    font-size: 36px;
+}
+
+.highlight {
+    color: #FF0000;
+    animation: fadeIn 3s;
+}
+
+.about_h2 {
+    font-size: 24px;
+}
+
+.about_ul {
+    text-align: left;
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+.about_li {
+    margin-bottom: 10px;
+}
+
+.fade-in{
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.register_section{
+    padding: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.register_img{
+    background-image: url('../assets/personas-que-trabajan-interior-junto-pesas_23-2149175410.avif');
+    filter: blur(5px);
+    -webkit-backdrop-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+.login_section{
+    padding: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.login_form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.product_section{
+    background-color: #414141;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.products_container{
+    margin: 30px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.products_header{
+    width: 100%;
+    text-align: center;
+}
+
+.products_header_h1{
+    margin-bottom: 15px;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-shadow: 
+    0.025em 0.025em 0 yellow,
+    0.05em 0.05em 0 blue,
+    0.075em 0.075em 0 red,
+    0.1em 0.1em 0 black;
+    
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.products{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.product{
+    position: relative;
+    background-color: #414141;
+    width: 350px;
+    height: auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 40px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.product:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px #ccc;
+}
+
+.product p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.product_img{
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+}
+
+.product_img img{
+    width: 70%;
+    height: auto;
+
+}
+
+.namePrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.namePrice h3{
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.namePrice span{
+    padding-top: 10px;
+    font-size: 1.5em;
+    color: #f8ff3b;
+}
+
+.stars svg{
+    font-size: 1.3em;
+    color: #f8ff3b;
+}
+
+.buy{
+    display: flex;
+    justify-content: flex-end;
+    bottom: 20px;
+    right: 20px;
+}
+
+.buy button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: #d00;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.buy button:hover{
+    transform: scale(1.1);
+}
 
 
 
