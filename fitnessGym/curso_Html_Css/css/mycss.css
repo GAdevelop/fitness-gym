@@ -453,7 +453,9 @@ footer {
 }
 
 .namePrice h3{
-    font-size: 2em;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
     text-transform: capitalize;
     color: #fff;
 }
@@ -462,6 +464,32 @@ footer {
     padding-top: 10px;
     font-size: 1.5em;
     color: #f8ff3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#span_gold{
+    text-shadow: 
+    0.050em 0.1em 0.2em #f6e27a;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-family: 'Times New Roman',serif;
+    font-weight: bold;
+    background-image: linear-gradient(
+	to right,
+	#cb9b51 33%, 
+	#f6e27a 60%,
+	#f6f2c0 50%,
+	#f6e27a 65%,
+	#cb9b51 100%,
+	#462523 0%
+	);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .stars svg{
