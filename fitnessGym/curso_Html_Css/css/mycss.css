@@ -101,7 +101,7 @@ nav a:hover {
     color: #fff;
 }
 
-#classes h2 {
+/* #classes h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #fff;
@@ -120,7 +120,7 @@ nav a:hover {
     margin-right: 1rem;
     margin-bottom: 1rem;
     color-scheme: #fff;
-}
+} */
 
 #trainers {
     background-color: #414141;
@@ -214,9 +214,11 @@ button[type="submit"] {
 
 footer {
     background-color: #3c3232;
+    margin-top: 10px;
     padding: 20px;
     position: sticky;
     top: 100%;
+    height: 100%;
 }
 
 .footer-content {
@@ -520,90 +522,54 @@ footer {
     transform: scale(1.1);
 }
 
-
-
-/* #imagen_gym {
-    max-height: 500px;
+.div_main_classes{
+    display: grid;
 }
 
-.form {
-    width: 400px;
+#accordion{
+    display: grid;
+    margin: 100px;
+    width: 500px;
+}
+
+#accordion li{
+    margin-bottom: 10px;
+    list-style: none;
+    border-radius: 4px;
+    padding: 10px;
     background: #000;
-}
-.input {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 2px;
-    height: 24px;
-    display: block;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    border-radius: 30px;
-    text-indent: 4px;
-}
-body {
-    background-color: #000;
-    color: #fff;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-
-header{
-    background: rgba(0,0,0,0.2);
     width: 100%;
-    height: 12vh;
 }
 
-.navbar {
+#accordion li label{
+    padding: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    position: sticky;
-    padding-top: 14px;
-}
-.li_navbar {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0px 20px;
-    text-decoration: none;
-}
-
-.a_navbar{
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 20px;
-    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
     cursor: pointer;
-}
-main{
-    background-image: url(../assets/mancuernas-fitness_335224-876.avif);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+    color: #f6fe00;
 }
 
-.logo_img{
-    height: 50px;
-    width: 50px;
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #f6fe00;
+}
+
+#accordion label + input[type="radio"]{
+    display: none;
+}
+
+#accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
     overflow: hidden;
+    transition: max-height 0.5s;
 }
 
-.register_button{
-    border-radius: 10%;
+#accordion label + input[type="radio"]:checked + .content{
+    max-height: 400px;
 }
-
-.div_entrenadores{
-    display: flex;
-    justify-content: center;
-}
-
-.imagenes_entrenadores{
-    margin: 20px;
-    width: 450px;
-    height: 400px;
-}
-
-.a_entrenadores{
-    text-decoration: none;
-} */
-
